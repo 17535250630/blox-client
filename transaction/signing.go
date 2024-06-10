@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/17535250630/solana-go"
 	solanarpc "github.com/17535250630/solana-go/rpc"
 )
 
