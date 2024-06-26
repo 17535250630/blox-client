@@ -3,17 +3,17 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/actor"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/utils"
-	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
-	"github.com/gagliardetto/solana-go"
-	solanarpc "github.com/gagliardetto/solana-go/rpc"
-	"github.com/pkg/errors"
-	"github.com/urfave/cli/v2"
 	"os"
 	"time"
+
+	"github.com/17535250630/blox-client/benchmark/internal/actor"
+	"github.com/17535250630/blox-client/benchmark/internal/logger"
+	"github.com/17535250630/blox-client/benchmark/internal/stream"
+	"github.com/17535250630/blox-client/benchmark/internal/utils"
+	solanarpc "github.com/17535250630/solana-go/rpc"
+	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/pkg/errors"
+	"github.com/urfave/cli/v2"
 )
 
 // requires AUTH_HEADER and PRIVATE_KEY to work.

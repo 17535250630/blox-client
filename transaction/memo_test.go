@@ -1,11 +1,11 @@
 package transaction
 
 import (
-	"github.com/gagliardetto/solana-go"
-	solanarpc "github.com/gagliardetto/solana-go/rpc"
+	"testing"
+
+	solanarpc "github.com/17535250630/solana-go/rpc"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func TestAddMemoToSerializedTxn(t *testing.T) {

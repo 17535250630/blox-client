@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+
+	"github.com/17535250630/blox-client/provider"
 )
 
 func traderClients(env string) (*provider.HTTPClient, *provider.WSClient, error) {

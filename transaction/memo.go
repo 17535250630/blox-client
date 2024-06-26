@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"github.com/gagliardetto/solana-go"
-	solanarpc "github.com/gagliardetto/solana-go/rpc"
+
+	"github.com/17535250630/solana-go"
+	solanarpc "github.com/17535250630/solana-go/rpc"
 )
 
 const BxMemoMarkerMsg = "Powered by bloXroute Trader Api"

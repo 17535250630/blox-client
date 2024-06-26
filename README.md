@@ -6,7 +6,7 @@ in Go.
 
 ## Installation
 ```
-go get github.com/bloXroute-Labs/solana-trader-client-go
+go get github.com/17535250630/blox-client
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/17535250630/blox-client/provider"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 )
 
@@ -81,7 +81,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/17535250630/blox-client/provider"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"context"
 )

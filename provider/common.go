@@ -3,13 +3,13 @@ package provider
 import (
 	"errors"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
-	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"os"
 	"strings"
 	"time"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/17535250630/blox-client/transaction"
+	"github.com/17535250630/solana-go"
+	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 )
 
 const (

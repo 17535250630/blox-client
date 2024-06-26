@@ -1,8 +1,8 @@
 package utils
 
 import (
+	"github.com/17535250630/solana-go"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
-	"github.com/gagliardetto/solana-go"
 )
 
 func ConvertProtoAddressLookupTable(addressLookupTableProto map[string]*pb.PublicKeys) (map[solana.PublicKey]solana.PublicKeySlice, error) {

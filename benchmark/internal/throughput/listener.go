@@ -2,8 +2,9 @@ package throughput
 
 import (
 	"context"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
 	"time"
+
+	"github.com/17535250630/blox-client/benchmark/internal/logger"
 )
 
 const (

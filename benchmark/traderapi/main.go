@@ -1,15 +1,16 @@
 package main
 
 import (
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/csv"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/output"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/utils"
-	"github.com/pkg/errors"
-	"github.com/urfave/cli/v2"
 	"os"
 	"time"
+
+	"github.com/17535250630/blox-client/benchmark/internal/csv"
+	"github.com/17535250630/blox-client/benchmark/internal/logger"
+	"github.com/17535250630/blox-client/benchmark/internal/output"
+	"github.com/17535250630/blox-client/benchmark/internal/stream"
+	"github.com/17535250630/blox-client/benchmark/internal/utils"
+	"github.com/pkg/errors"
+	"github.com/urfave/cli/v2"
 )
 
 import (

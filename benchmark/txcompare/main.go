@@ -3,14 +3,14 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/csv"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/transaction"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/utils"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
-	"github.com/gagliardetto/solana-go"
-	"github.com/urfave/cli/v2"
 	"os"
+
+	"github.com/17535250630/blox-client/benchmark/internal/csv"
+	"github.com/17535250630/blox-client/benchmark/internal/logger"
+	"github.com/17535250630/blox-client/benchmark/internal/transaction"
+	"github.com/17535250630/blox-client/benchmark/internal/utils"
+	"github.com/17535250630/blox-client/provider"
+	"github.com/urfave/cli/v2"
 )
 
 func main() {

@@ -7,14 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
-
-	"github.com/bloXroute-Labs/solana-trader-client-go/examples/config"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
-	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
-	"github.com/bloXroute-Labs/solana-trader-proto/common"
-
+	"github.com/17535250630/blox-client/examples/config"
+	"github.com/17535250630/blox-client/provider"
+	"github.com/17535250630/blox-client/transaction"
+	"github.com/17535250630/blox-client/utils"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/bloXroute-Labs/solana-trader-proto/common"
 	log "github.com/sirupsen/logrus"
 )
 

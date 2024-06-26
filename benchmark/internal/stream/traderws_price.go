@@ -4,8 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+
+	"github.com/17535250630/blox-client/benchmark/internal/logger"
+	"github.com/17535250630/blox-client/provider"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"go.uber.org/zap"
 )
