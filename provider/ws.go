@@ -4,13 +4,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
-
-	"github.com/17535250630/blox-client/connections"
-	"github.com/17535250630/blox-client/transaction"
-	"github.com/17535250630/blox-client/utils"
-	"github.com/17535250630/solana-go"
+	"github.com/bloXroute-Labs/solana-trader-client-go/connections"
+	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
+	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"github.com/bloXroute-Labs/solana-trader-proto/common"
+	"github.com/gagliardetto/solana-go"
 )
 
 type WSClient struct {

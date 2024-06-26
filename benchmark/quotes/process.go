@@ -3,15 +3,14 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/actor"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/output"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
+	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"os"
 	"sort"
 	"strconv"
 	"time"
-
-	"github.com/17535250630/blox-client/benchmark/internal/actor"
-	"github.com/17535250630/blox-client/benchmark/internal/output"
-	"github.com/17535250630/blox-client/benchmark/internal/stream"
-	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 )
 
 type benchmarkResult struct {

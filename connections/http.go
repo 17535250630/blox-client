@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	package_info "github.com/17535250630/blox-client"
+	package_info "github.com/bloXroute-Labs/solana-trader-client-go"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

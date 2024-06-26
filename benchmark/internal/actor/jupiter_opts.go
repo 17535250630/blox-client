@@ -1,9 +1,8 @@
 package actor
 
 import (
+	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
 	"time"
-
-	"github.com/17535250630/blox-client/provider"
 )
 
 type JupiterOpt func(s *jupiterSwap)

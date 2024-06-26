@@ -4,14 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"sync"
-	"time"
-
-	"github.com/17535250630/blox-client/benchmark/internal/logger"
-	"github.com/17535250630/blox-client/examples/config"
-	"github.com/17535250630/blox-client/provider"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
+	"github.com/bloXroute-Labs/solana-trader-client-go/examples/config"
+	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"go.uber.org/zap"
+	"sync"
+	"time"
 )
 
 const (

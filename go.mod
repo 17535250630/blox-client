@@ -1,13 +1,13 @@
-module github.com/17535250630/blox-client
+module github.com/bloXroute-Labs/solana-trader-client-go
 
 go 1.21
 
 toolchain go1.22.1
 
 require (
-	github.com/17535250630/solana-go v0.0.0-20240526141943-7c0af3f7a182
 	github.com/bloXroute-Labs/solana-trader-proto v1.9.1-0.20240521170541-1e836cb94d13
-	github.com/gagliardetto/binary v0.8.0
+	github.com/gagliardetto/binary v0.7.7
+	github.com/gagliardetto/solana-go v1.8.4
 	github.com/gorilla/websocket v1.4.2
 	github.com/joho/godotenv v1.4.0
 	github.com/pkg/errors v0.9.1
@@ -53,7 +53,7 @@ require (
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/streamingfast/logging v0.0.0-20230608130331-f22c91403091 // indirect
+	github.com/streamingfast/logging v0.0.0-20220405224725-2755dab2ce75 // indirect
 	github.com/teris-io/shortid v0.0.0-20201117134242-e59966efd125 // indirect
 	github.com/tidwall/gjson v1.9.3 // indirect
 	github.com/tidwall/match v1.1.1 // indirect

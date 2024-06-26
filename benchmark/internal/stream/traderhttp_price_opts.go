@@ -1,9 +1,8 @@
 package stream
 
 import (
+	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
 	"time"
-
-	"github.com/17535250630/blox-client/provider"
 )
 
 type TraderHTTPPriceOpt func(s *traderHTTPPriceStream)

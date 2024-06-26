@@ -4,12 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"time"
-
-	"github.com/17535250630/blox-client/benchmark/internal/logger"
-	"github.com/17535250630/blox-client/provider"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
+	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"go.uber.org/zap"
+	"time"
 )
 
 type traderHTTPPriceStream struct {

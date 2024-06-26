@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/output"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
+	gserum "github.com/gagliardetto/solana-go/programs/serum"
 	"strconv"
 	"time"
-
-	"github.com/17535250630/blox-client/benchmark/internal/output"
-	"github.com/17535250630/blox-client/benchmark/internal/stream"
-	gserum "github.com/17535250630/solana-go/programs/serum"
 )
 
 const tsFormat = "15:04:05.999999"

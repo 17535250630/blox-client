@@ -3,10 +3,9 @@ package transaction
 import (
 	"errors"
 	"fmt"
+	"github.com/gagliardetto/solana-go"
+	solanarpc "github.com/gagliardetto/solana-go/rpc"
 	"os"
-
-	"github.com/17535250630/solana-go"
-	solanarpc "github.com/17535250630/solana-go/rpc"
 )
 
 // LoadPrivateKeyFromEnv looks up private key from the `PRIVATE_KEY` environment variable

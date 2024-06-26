@@ -5,16 +5,15 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"io"
-	"net/http"
-
-	"github.com/17535250630/blox-client/benchmark/internal/logger"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"github.com/gorilla/websocket"
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/jsonrpc2"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/encoding/protojson"
+	"io"
+	"net/http"
 )
 
 type TraderAPIUpdate struct {

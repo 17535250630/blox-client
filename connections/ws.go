@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	package_info "github.com/17535250630/blox-client"
-	"github.com/17535250630/blox-client/utils"
+	package_info "github.com/bloXroute-Labs/solana-trader-client-go"
+	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
 	"github.com/gorilla/websocket"
 	"github.com/sourcegraph/jsonrpc2"
 	"google.golang.org/protobuf/encoding/protojson"

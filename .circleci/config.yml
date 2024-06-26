@@ -5,12 +5,10 @@ executors:
       - image: cimg/go:1.21
     environment:
       GOPATH: /home/circleci/go
-      WORKSPACE: /home/circleci/go/src/github.com/17535250630/blox-client
       GOTRACEBACK: all
       RUN_TRADES: false
       RUN_SLOW_STREAM: false
       RUN_PERP_TRADES: true
-    working_directory: /home/circleci/go/src/github.com/17535250630/blox-client
 jobs:
   init:
     executor: bxgo

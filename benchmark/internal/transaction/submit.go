@@ -2,16 +2,16 @@ package transaction
 
 import (
 	"context"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
+	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/utils"
+	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
+	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/gagliardetto/solana-go"
+	solanarpc "github.com/gagliardetto/solana-go/rpc"
 	"strconv"
 	"sync"
 	"time"
-
-	"github.com/17535250630/blox-client/benchmark/internal/logger"
-	"github.com/17535250630/blox-client/benchmark/internal/utils"
-	"github.com/17535250630/blox-client/provider"
-	"github.com/17535250630/blox-client/transaction"
-	solanarpc "github.com/17535250630/solana-go/rpc"
-	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 )
 
 const (
